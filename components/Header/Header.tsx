@@ -15,7 +15,7 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            <Link href="/notes/filter/all" aria-label="Filter">
+            <Link href="/notes/filter/all" aria-label="Notes">
               Notes
             </Link>
           </li>

@@ -15,13 +15,7 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            <Link
-              href={{
-                pathname: '/notes/filter/[...slug]',
-                query: { slug: ['all'] },
-              }}
-              aria-label="Notes"
-            >
+            <Link href="/notes/filter/all" aria-label="Filter">
               Notes
             </Link>
           </li>
